@@ -1,0 +1,47 @@
+a{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+body{
+    background-image: url("./img/bgpic1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: "Lato", sans-serif;
+    height: 100vh;
+}
+table {
+    width: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: azure;
+}
+th {
+    border: 1px solid #070707;
+    background-color: #000000c7;
+    color: white;
+}
+/*
+td {
+    border:0.5px solid #111111;
+}
+*/
+h2 {
+    font-size: 28px;
+    animation: textColorCycle 4s infinite;
+    text-align: center;
+    background: black;
+    border-radius: 50px;
+    padding: 20px;
+}
+
+@keyframes textColorCycle {
+  0%   { color: rgb(255, 0, 0); }
+  16.66%  { color: rgb(255, 255, 0); }
+  33.33%  { color: rgb(0, 255, 0); }
+  50%  { color: rgb(0, 255, 255); }
+  66.66% { color: rgb(0, 0, 255); }
+  83.33% { color: rgb(255, 0, 255); }
+  100% { color: rgb(255, 0, 0); }
+}
